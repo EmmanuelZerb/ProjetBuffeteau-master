@@ -1,0 +1,43 @@
+.couleurDeFond{
+
+    -fx-background-color : #50A5D0 ;
+    }
+.CouleurDeFondBouton{
+
+    -fx-background-color : #3881a6;
+}
+.CouleurBlanc{
+    -fx-background-color : #FFFFFF;
+}
+.couleurDeAnchorPane{
+
+    -fx-background-color : #D38925 ;
+    }
+
+    .btnMenu:hover
+    {
+    -fx-background-color: #77B5FE;
+    -fx-background-radius: 30 0 0 30;
+    }
+
+    .ap
+    {
+        -fx-background-color: white;
+    }
+    .btMouseAjouterClicker:hover
+    {
+        -fx-background-color: #77B5FE;
+    }
+    .CouleurNoirBoutonModif
+    {
+    -fx-background-color : black;
+    }
+    .btnMV:hover
+        {
+        -fx-background-color: #77B5FE;
+        }
+ .couleurDeFondEtudiant{
+    background: radial-gradient(circle,transparent 10%, #FF5733 10%);
+        background-size: 20px 20px;
+        background-position: 0 0, 10px 10px;
+    }
