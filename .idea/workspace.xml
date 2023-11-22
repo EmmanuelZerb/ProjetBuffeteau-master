@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11a3475-f468-48ff-bd72-0442a450e539" name="Changes" comment="caca">
-      <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/ConnexionEtudiantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/ConnexionEtudiantController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ConnexionBDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ConnexionBDD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ServiceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ServiceUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/sio/helplerebours/ConnexionEtudiant.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sio/helplerebours/ConnexionEtudiant.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="e11a3475-f468-48ff-bd72-0442a450e539" name="Changes" comment="CA MARCHE CA MARCHE CA MARCHE" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -78,7 +72,23 @@
       <option name="project" value="LOCAL" />
       <updated>1700464316252</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="CA MARCHE CA MARCHE CA MARCHE">
+      <option name="closed" value="true" />
+      <created>1700668870486</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700668870486</updated>
+    </task>
+    <task id="LOCAL-00003" summary="CA MARCHE CA MARCHE CA MARCHE">
+      <option name="closed" value="true" />
+      <created>1700668884063</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700668884063</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +104,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="caca" />
-    <option name="LAST_COMMIT_MESSAGE" value="caca" />
+    <MESSAGE value="CA MARCHE CA MARCHE CA MARCHE" />
+    <option name="LAST_COMMIT_MESSAGE" value="CA MARCHE CA MARCHE CA MARCHE" />
   </component>
 </project>
