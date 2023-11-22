@@ -25,7 +25,7 @@
          <children>
             <AnchorPane fx:id="apConnexionEtudiant" prefHeight="307.0" prefWidth="600.0">
                <children>
-                  <TextField fx:id="tfMdpEtudiant" layoutX="297.0" layoutY="174.0" promptText="mot de passe" />
+                  <TextField fx:id="tfMdpEtudiant" layoutX="297.0" layoutY="174.0" promptText="mot de passe" text="sabcas" />
                   <Label alignment="CENTER" layoutX="115.0" layoutY="14.0" prefHeight="51.0" prefWidth="394.0" text="Connexion ">
                      <font>
                         <Font name="System Bold" size="24.0" />
@@ -33,7 +33,7 @@
                   </Label>
                   <Label layoutX="178.0" layoutY="111.0" text="Identifiant :" />
                   <Label layoutX="178.0" layoutY="178.0" text="Mot de passe :" />
-                  <TextField fx:id="tfIdentifiantEtudiant" layoutX="297.0" layoutY="107.0" promptText="identifiant" />
+                  <TextField fx:id="tfIdentifiantEtudiant" layoutX="297.0" layoutY="107.0" promptText="identifiant" text="sabine.castaing@lerebours.org" />
                   <Button fx:id="btnValiderConnexionEtudiant" layoutX="167.0" layoutY="249.0" mnemonicParsing="false" onMouseClicked="#btnValiderConnexionClicked" prefHeight="26.0" prefWidth="304.0" text="Valider" />
                </children>
             </AnchorPane>
