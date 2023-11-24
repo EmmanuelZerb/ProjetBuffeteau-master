@@ -6,6 +6,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.ChoiceBoxListCell;
 import javafx.scene.layout.AnchorPane;
+import sio.helplerebours.Entities.User;
 
 import java.net.URL;
 import java.sql.SQLException;
@@ -13,7 +14,7 @@ import java.util.ResourceBundle;
 
 public class HelpLeReboursController implements Initializable
 {
-
+    private User leUser;
     @FXML
     private ComboBox cbCréerDemandeMatiere;
     @FXML
@@ -25,10 +26,6 @@ public class HelpLeReboursController implements Initializable
     @FXML
     private DatePicker dpCreerSesCompetencesDateLimite;
     @FXML
-    private ChoiceBox cCreerSesCompetencesSousMatiere;
-    @FXML
-    private ComboBox cCreerSesCompetencesMatiere;
-    @FXML
     private Button btnCréerSesCompetencesValider;
     @FXML
     private Button btnVisualiserSesDemandesValider;
@@ -36,6 +33,10 @@ public class HelpLeReboursController implements Initializable
     private TableView tvDemandeEtudiant1;
     @FXML
     private Button btnVisualiserDesDemandesValider;
+    @FXML
+    private ChoiceBox cbCreerSesCompetencesSousMatiere;
+    @FXML
+    private ComboBox cbCreerSesCompetencesMatiere;
 
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
@@ -111,4 +112,6 @@ public class HelpLeReboursController implements Initializable
         cbCréerDemandeMatiere.setButtonCell(new ChoiceBoxListCell("designation"));
 
     }
+
+
 }

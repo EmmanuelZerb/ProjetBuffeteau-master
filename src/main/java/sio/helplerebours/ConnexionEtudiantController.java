@@ -79,16 +79,15 @@ public class ConnexionEtudiantController implements Initializable {
         }
 
         else{
-
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("helplerebours-view.fxml"));
             Parent root = fxmlLoader.load();
             Scene scene = new Scene(root);
-            HelpLeReboursController modificationContactController = fxmlLoader.getController();
-            //modificationContactController.initDatas(((User)btnValiderConnexionEtudiant.get().getSelectedItem()));
             Stage stage = new Stage();
-            stage.setTitle("Modification d'un contact");
+            Stage s = (Stage) btnValiderConnexionEtudiant.getScene().getWindow();
+            s.close();
             stage.setScene(scene);
             stage.show();
+
         }
 
 

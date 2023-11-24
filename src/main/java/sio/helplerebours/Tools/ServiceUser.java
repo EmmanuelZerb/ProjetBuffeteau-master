@@ -12,7 +12,6 @@ public class ServiceUser {
 
     private Connection uneCnx;
     private PreparedStatement ps;
-
     private ResultSet rs;
 
 

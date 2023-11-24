@@ -97,9 +97,9 @@
                   <Label layoutX="66.0" layoutY="94.0" prefHeight="18.0" prefWidth="50.0" text="Matière" />
                   <Label layoutX="66.0" layoutY="190.0" prefHeight="18.0" prefWidth="50.0" text="Date" />
                   <DatePicker fx:id="dpCreerSesCompetencesDateLimite" layoutX="174.0" layoutY="187.0" prefHeight="25.0" prefWidth="154.0" />
-                  <ChoiceBox fx:id="cCreerSesCompetencesSousMatiere" layoutX="176.0" layoutY="138.0" prefWidth="150.0" />
+                  <ChoiceBox fx:id="cbCreerSesCompetencesSousMatiere" layoutX="176.0" layoutY="138.0" prefWidth="150.0" />
                   <Label layoutX="66.0" layoutY="141.0" prefHeight="18.0" prefWidth="75.0" text="Sous matière" />
-                  <ComboBox fx:id="cCreerSesCompetencesMatiere" layoutX="176.0" layoutY="90.0" prefWidth="150.0" />
+                  <ComboBox fx:id="cbCreerSesCompetencesMatiere" layoutX="176.0" layoutY="90.0" prefWidth="150.0" />
                   <Button fx:id="btnCréerSesCompetencesValider" layoutX="176.0" layoutY="241.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="153.0" text="Valider" />
                </children>
             </AnchorPane>
