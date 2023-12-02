@@ -40,6 +40,11 @@ public class ConnexionEtudiantController implements Initializable {
     unService = new ServiceUser();
         try {
             uneCnx = new ConnexionBDD();
+
+
+
+
+
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
         } catch (SQLException e) {

@@ -6,6 +6,16 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.ChoiceBoxListCell;
 import javafx.scene.layout.AnchorPane;
+import javafx.util.StringConverter;
+import sio.helplerebours.Entities.Matiere;
+import sio.helplerebours.Entities.User;
+import sio.helplerebours.Tools.ConnexionBDD;
+import sio.helplerebours.Tools.ServiceMatiere;
+import sio.helplerebours.Tools.ServiceUser;
+import javafx.scene.control.ListCell;
+import javafx.scene.control.ComboBox;
+import javafx.collections.ObservableList;
+
 
 import java.net.URL;
 import java.sql.SQLException;
@@ -36,13 +46,10 @@ public class HelpLeReboursController implements Initializable
     private TableView tvDemandeEtudiant1;
     @FXML
     private Button btnVisualiserDesDemandesValider;
-
-    public void initialize(URL url, ResourceBundle resourceBundle) {
-
-    }
-
-
-
+    ConnexionBDD uneCnx;
+    ServiceUser unService = new ServiceUser();
+    ServiceMatiere ServiceMatiere;
+    User user;
     @FXML
     private Button btnCréerDemandesEtudiant1;
     @FXML
@@ -71,6 +78,46 @@ public class HelpLeReboursController implements Initializable
     private AnchorPane apVisuDesDemandesEtudiant;
     @FXML
     private AnchorPane apStatistiquesEtudiant;
+
+    public void initialize(URL url, ResourceBundle resourceBundle) {
+        try {
+            uneCnx = new ConnexionBDD();
+            ServiceMatiere serviceMatiere = new ServiceMatiere();
+
+            // Pour l'affichage des cellules dans la liste déroulante
+            cbCréerDemandeMatiere.setCellFactory(param -> new ListCell<Matiere>() {
+                @Override
+                protected void updateItem(Matiere matiere, boolean empty) {
+                    super.updateItem(matiere, empty);
+                    if (empty || matiere == null) {
+                        setText(null);
+                    } else {
+                        setText(matiere.getDesignation());
+                    }
+                }
+            });
+            // Définition du convertisseur pour la ComboBox
+            cbCréerDemandeMatiere.setConverter(new StringConverter<Matiere>() {
+                @Override
+                public String toString(Matiere matiere) {
+                    return matiere == null ? null : matiere.getDesignation();
+                }
+
+                @Override
+                public Matiere fromString(String string) {
+                    return null; // Si vous avez besoin d'une conversion inverse
+                }
+            });
+
+            cbCréerDemandeMatiere.getItems().addAll(serviceMatiere.GetAllMatiere());
+            cCreerSesCompetencesMatiere.getItems().addAll(serviceMatiere.GetAllMatiere());
+
+        } catch (ClassNotFoundException | SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+
 
     @FXML
     public void CréerDemandeClicked(Event event) {
@@ -107,8 +154,5 @@ public class HelpLeReboursController implements Initializable
 
     @FXML
     public void cbCréerDemandeMatiereClicked(Event event) throws SQLException {
-
-        cbCréerDemandeMatiere.setButtonCell(new ChoiceBoxListCell("designation"));
-
     }
 }
