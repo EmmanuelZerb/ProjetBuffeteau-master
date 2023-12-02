@@ -108,6 +108,31 @@ public class HelpLeReboursController implements Initializable
                     return null; // Si vous avez besoin d'une conversion inverse
                 }
             });
+            // Pour l'affichage des cellules dans la liste déroulante
+            cCreerSesCompetencesMatiere.setCellFactory(param -> new ListCell<Matiere>() {
+                @Override
+                protected void updateItem(Matiere matiere, boolean empty) {
+                    super.updateItem(matiere, empty);
+                    if (empty || matiere == null) {
+                        setText(null);
+                    } else {
+                        setText(matiere.getDesignation());
+                    }
+                }
+            });
+            // Définition du convertisseur pour la ComboBox
+            cCreerSesCompetencesMatiere.setConverter(new StringConverter<Matiere>() {
+                @Override
+                public String toString(Matiere matiere) {
+                    return matiere == null ? null : matiere.getDesignation();
+                }
+
+                @Override
+                public Matiere fromString(String string) {
+                    return null; // Si vous avez besoin d'une conversion inverse
+                }
+            });
+
 
             cbCréerDemandeMatiere.getItems().addAll(serviceMatiere.GetAllMatiere());
             cCreerSesCompetencesMatiere.getItems().addAll(serviceMatiere.GetAllMatiere());
