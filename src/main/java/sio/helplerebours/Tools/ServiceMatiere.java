@@ -2,6 +2,7 @@ package sio.helplerebours.Tools;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import sio.helplerebours.Entities.Competence;
 import sio.helplerebours.Entities.Matiere;
 import sio.helplerebours.Entities.User;
 
@@ -21,7 +22,7 @@ public class ServiceMatiere {
     }
 
 
-    public ObservableList<Matiere> GetAllMatiere () throws SQLException {
+    public ObservableList<Matiere> GetDesignationMatiere() throws SQLException {
         ObservableList<Matiere> lesMatieres = FXCollections.observableArrayList();
         ps = uneCnx.prepareStatement("SELECT designation FROM matiere;");
         rs = ps.executeQuery();
@@ -31,4 +32,17 @@ public class ServiceMatiere {
         }
         return lesMatieres;
     }
+
+    public ObservableList<Matiere> GetSousMatiereMatiere(String idMatiere) throws SQLException {
+        ObservableList<Matiere> lesMatieres = FXCollections.observableArrayList();
+        ps = uneCnx.prepareStatement("SELECT designation, sous_matiere FROM matiere;");
+        rs = ps.executeQuery();
+        while(rs.next()){
+            Matiere uneMatiere = new Matiere(rs.getString(1),rs.getString(2));
+            lesMatieres.add(uneMatiere);
+        }
+        return lesMatieres;
+    }
+
+
 }

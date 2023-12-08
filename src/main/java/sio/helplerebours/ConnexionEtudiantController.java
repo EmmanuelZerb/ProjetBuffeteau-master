@@ -85,6 +85,8 @@ public class ConnexionEtudiantController implements Initializable {
 
         else{
 
+            Stage currentStage = (Stage) apConnexionEtudiant.getScene().getWindow(); // Récupère le Stage actuel
+            currentStage.close();
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("helplerebours-view.fxml"));
             Parent root = fxmlLoader.load();
             Scene scene = new Scene(root);
@@ -94,6 +96,8 @@ public class ConnexionEtudiantController implements Initializable {
             stage.setTitle("Modification d'un contact");
             stage.setScene(scene);
             stage.show();
+
+
         }
 
 
