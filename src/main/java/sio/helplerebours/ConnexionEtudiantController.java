@@ -40,11 +40,6 @@ public class ConnexionEtudiantController implements Initializable {
     unService = new ServiceUser();
         try {
             uneCnx = new ConnexionBDD();
-
-
-
-
-
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
         } catch (SQLException e) {
@@ -90,22 +85,14 @@ public class ConnexionEtudiantController implements Initializable {
             FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("helplerebours-view.fxml"));
             Parent root = fxmlLoader.load();
             Scene scene = new Scene(root);
-            HelpLeReboursController modificationContactController = fxmlLoader.getController();
+            HelpLeReboursController helpLeReboursController = fxmlLoader.getController();
+            helpLeReboursController.setUser(user);
             //modificationContactController.initDatas(((User)btnValiderConnexionEtudiant.get().getSelectedItem()));
             Stage stage = new Stage();
             stage.setTitle("Modification d'un contact");
             stage.setScene(scene);
             stage.show();
-
-
         }
-
-
-
-
-
-
-
 
     }
 

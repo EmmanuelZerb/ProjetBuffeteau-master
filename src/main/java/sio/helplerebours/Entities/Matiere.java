@@ -1,20 +1,21 @@
 package sio.helplerebours.Entities;
 
 public class Matiere {
+    private int id;
     private String designation;
 
-    private String sousMatiere;
 
-    public Matiere(String designation, String sousMatiere) {
-        this.designation = designation;
-        this.sousMatiere = sousMatiere;
-    }
 
-    public Matiere(String designation) {
+    public Matiere(int id, String designation) {
+        this.id = id;
         this.designation = designation;
     }
 
     public String getDesignation() {
         return designation;
+    }
+
+    public int getId() {
+        return id;
     }
 }

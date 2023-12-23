@@ -1,43 +1,43 @@
 package sio.helplerebours.Entities;
 
 public class Competence {
-    private String prenom;
-    private String nom;
-    private String classe;
-    private String matiere;
-    private String SousMatiere;
-    private int DateLimite;
+    private int id;
+    private int idUser;
+    private int idMatiere;
+    private String designation;
+    private String sousMatiere;
 
-    public Competence(String prenom, String nom, String classe, String matiere, String sousMatiere, int dateLimite) {
-        this.prenom = prenom;
-        this.nom = nom;
-        this.classe = classe;
-        this.matiere = matiere;
-        SousMatiere = sousMatiere;
-        DateLimite = dateLimite;
+
+    public Competence(int idUser,int idMatiere,String sousMatiere) {
+        this.idUser = idUser;
+        this.idMatiere = idMatiere;
+        this.sousMatiere = sousMatiere;
+    }
+    public Competence(String designation,String sousMatiere) {
+        this.designation = designation;
+        this.sousMatiere = sousMatiere;
+    }
+    public Competence(int id, String designation,String sousMatiere) {
+        this.id = id;
+        this.designation = designation;
+        this.sousMatiere = sousMatiere;
     }
 
-    public String getPrenom() {
-        return prenom;
-    }
-
-    public String getNom() {
-        return nom;
-    }
-
-    public String getClasse() {
-        return classe;
-    }
-
-    public String getMatiere() {
-        return matiere;
+    public int getId() {
+        return id;
     }
 
     public String getSousMatiere() {
-        return SousMatiere;
+        return this.sousMatiere;
+    }
+    public int getIdUser() {
+        return idUser;
+    }
+    public int getIdMatiere() {
+        return idMatiere;
     }
 
-    public int getDateLimite() {
-        return DateLimite;
+    public String getDesignation() {
+        return designation;
     }
 }

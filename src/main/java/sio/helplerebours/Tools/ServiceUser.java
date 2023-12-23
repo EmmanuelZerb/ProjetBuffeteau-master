@@ -36,6 +36,18 @@ public class ServiceUser {
         }
         return user;
     }
+    public int getNiveau(int idUser) throws SQLException {
+        int niveau;
+        ps = uneCnx.prepareStatement("SELECT user.niveau"
+                + " FROM user "
+                + " WHERE user.id = ? ");
+        ps.setInt(1, idUser);
+        rs = ps.executeQuery();
+
+        rs.next();
+        niveau = rs.getInt(1);
+        return niveau;
+    }
 
 
 }

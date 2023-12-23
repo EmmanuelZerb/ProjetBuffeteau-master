@@ -4,20 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e11a3475-f468-48ff-bd72-0442a450e539" name="Changes" comment="on affiche un bail dans créer demande mais azy c'est bancale c'est pas écrit en texte">
+    <list default="true" id="1e3af9eb-0ed3-41ce-b086-533d7a9429a9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ServiceSoutien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/ConnexionEtudiantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/ConnexionEtudiantController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Entities/Competence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Entities/Competence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Entities/Demande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Entities/Demande.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Entities/Matiere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Entities/Matiere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Entities/Soutien.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Entities/Soutien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/HelpLeReboursApplication.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/HelpLeReboursController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/HelpLeReboursController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ConnexionBDD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ConnexionBDD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ServiceCompetence.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ServiceCompetence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ServiceDemande.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ServiceDemande.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ServiceMatiere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ServiceMatiere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ServiceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sio/helplerebours/Tools/ServiceUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/sio/helplerebours/helplerebours-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/sio/helplerebours/helplerebours-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,51 +33,30 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;Nyrocks&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">
-    <option name="selectedUrlAndAccountId">
-      <UrlAndAccount>
-        <option name="accountId" value="22f87d2e-cb19-404b-952a-c26681af8084" />
-        <option name="url" value="https://github.com/Nyrocks/ProjetBuffeteau-masterr.git" />
-      </UrlAndAccount>
-    </option>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2YQiM0npVqiYCClqNP4k3MaeZVC" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2ZwUgO865DXHK2TfXxp7W588d1k" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/LeNyr/OneDrive - Lycée LE REBOURS/SIO1/BLOC Bufftau/TP7 - Etudiant&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/boutarzie/Desktop/ProjetBuffeteau-master/mysql-connector-java-5.1.48 (1).jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
-    <configuration name="Connexion" type="Application" factoryName="Application">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="sio.helplerebours.ConnexionEtudiantApplication" />
       <module name="HelpLeRebours" />
       <method v="2">
@@ -80,78 +67,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e11a3475-f468-48ff-bd72-0442a450e539" name="Changes" comment="" />
-      <created>1700464154082</created>
+      <changelist id="1e3af9eb-0ed3-41ce-b086-533d7a9429a9" name="Changes" comment="" />
+      <created>1703332746605</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1700464154082</updated>
+      <updated>1703332746605</updated>
     </task>
-    <task id="LOCAL-00001" summary="caca">
-      <option name="closed" value="true" />
-      <created>1700464316252</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1700464316252</updated>
-    </task>
-    <task id="LOCAL-00002" summary="CA MARCHE CA MARCHE CA MARCHE">
-      <option name="closed" value="true" />
-      <created>1700668870486</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1700668870486</updated>
-    </task>
-    <task id="LOCAL-00003" summary="CA MARCHE CA MARCHE CA MARCHE">
-      <option name="closed" value="true" />
-      <created>1700668884063</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1700668884063</updated>
-    </task>
-    <task id="LOCAL-00004" summary="CA MARCHE CA MARCHE CA MARCHE">
-      <option name="closed" value="true" />
-      <created>1700692045284</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1700692045284</updated>
-    </task>
-    <task id="LOCAL-00005" summary="on arrive à rentrer juste deux trois trucs à diff">
-      <option name="closed" value="true" />
-      <created>1700692344591</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1700692344591</updated>
-    </task>
-    <task id="LOCAL-00006" summary="on arrive à rentrer juste deux trois trucs à diff">
-      <option name="closed" value="true" />
-      <created>1700692712239</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1700692712240</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="caca" />
-    <MESSAGE value="CA MARCHE CA MARCHE CA MARCHE" />
-    <MESSAGE value="on arrive à rentrer juste deux trois trucs à diff" />
-    <option name="LAST_COMMIT_MESSAGE" value="on arrive à rentrer juste deux trois trucs à diff" />
   </component>
 </project>
